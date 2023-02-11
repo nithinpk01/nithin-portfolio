@@ -10,7 +10,7 @@ export default function About() {
             <br className="hidden lg:inline-block" /> Software Engineer
           </h1>
           <p className="mb-8 leading-relaxed">
-          I am Nithin PK, Full Stack Developer, focusing on developing web applications using Angular, React, Node, PHP and HTML5 to build everything a user sees and interacts with on a website.
+          I am Nithin PK, Software Engineer, focusing on developing web applications using Angular, React, Node, PHP and HTML5 to build everything a user sees and interacts with on a website.
           </p>
           <div className="flex justify-center">
             <a
