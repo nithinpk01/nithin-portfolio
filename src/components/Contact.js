@@ -15,12 +15,17 @@ export default function Contact() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    fetch("/", {
+    fetch("https://script.google.com/macros/s/AKfycbwqZj2QczRMvklSefgckZSPjyEFERmRM4Z_Gj0zoiPDCSveLPKypn6EnsPtgcRocB7V/exec", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "test", name, email, message }),
     })
-      .then(() => alert("Message sent!"))
+      .then(() => {
+        alert("Message sent!")
+        document.getElementById('name').value = "";
+        document.getElementById('email').value = "";
+        document.getElementById('message').value = "";
+      })
       .catch((error) => alert(error));
   }
 
