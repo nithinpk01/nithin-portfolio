@@ -13,5 +13,5 @@ jobs:
       - uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
-          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_NITHIN_PORTFOLIO_REACT }}'
-          projectId: nithin-portfolio-react
+          firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_NITHIN_PK }}'
+          projectId: nithin-pk
