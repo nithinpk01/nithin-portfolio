@@ -50,7 +50,7 @@ export default function Contact() {
                 ADDRESS
               </h2>
               <p className="mt-1">
-                Nandhanam (House) <br />
+                Pallikkuth Kalarikkal (House) <br />
                 Valambur PO <br />
                 Kerala, India 679325  
               </p>
