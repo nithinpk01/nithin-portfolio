@@ -59,9 +59,11 @@ export const skills = [
   "PHP",
   "Magento",
   "HTML5",
-  "SASS",
+  "CSS",
+  "Jquery",
+  "Bootstrap",
   "MongoDB",
-  "My Sql",
+  "My SQL",
   "Firebase",
   "git",
   "Postman"
