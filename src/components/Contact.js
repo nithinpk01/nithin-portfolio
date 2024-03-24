@@ -45,27 +45,39 @@ export default function Contact() {
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.5269086258404!2d76.199420714751!3d10.999037492170716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9a4e9ea1aa29fb9d!2s7J2RX6X2%2BJJ9!5e0!3m2!1sen!2sin!4v1671375652009!5m2!1sen!2sin"   loading="lazy"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
-            <div className="lg:w-1/2 px-6">
+            {/* <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                ADDRESS
+                Address
               </h2>
               <p className="mt-1">
                 Pallikkuth Kalarikkal (House) <br />
                 Valambur PO <br />
                 Kerala, India 679325  
               </p>
-            </div>
+            </div> */}
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                EMAIL
+                Email
               </h2>
               <a className="text-indigo-400 leading-relaxed">
-                nithinpkinfo@email.com
+                nithinpkinfo@gmail.com
               </a>
-              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+              {/* <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 PHONE
               </h2>
-              <p className="leading-relaxed">+91 9539540146</p>
+              <p className="leading-relaxed">+91 9539540146</p> */}
+               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+                LinkedIn
+              </h2>
+              <a className="text-indigo-400 leading-relaxed" href="https://www.linkedin.com/in/nithinpk/">
+              linkedin/nithinpk
+              </a>
+              <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
+                Instagram
+              </h2>
+              <a className="text-indigo-400 leading-relaxed" href="https://www.instagram.com/nithinpk_official/">
+                instagram/nithinpk_official
+              </a>
             </div>
           </div>
         </div>

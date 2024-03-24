@@ -65,6 +65,6 @@ export const skills = [
   "MongoDB",
   "My SQL",
   "Firebase",
-  "git",
+  "Git",
   "Postman"
 ];
