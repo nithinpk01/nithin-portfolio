@@ -42,7 +42,9 @@ export default function Contact() {
             marginHeight={0}
             marginWidth={0}
             style={{ filter: "opacity(0.7)" }}
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.5269086258404!2d76.199420714751!3d10.999037492170716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9a4e9ea1aa29fb9d!2s7J2RX6X2%2BJJ9!5e0!3m2!1sen!2sin!4v1671375652009!5m2!1sen!2sin"   loading="lazy"
+            // went to this website https://www.embed-map.com/ and copy src from generated html code data
+            // actual location:  https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.5269086258404!2d76.199420714751!3d10.999037492170716!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9a4e9ea1aa29fb9d!2s7J2RX6X2%2BJJ9!5e0!3m2!1sen!2sin!4v1671375652009!5m2!1sen!2sin
+            src="https://www.google.com/maps/embed/v1/place?q=Kerala,+India&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"   loading="lazy"
           />
           <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
             {/* <div className="lg:w-1/2 px-6">
