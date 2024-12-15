@@ -15,7 +15,7 @@ export default function Contact() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    fetch("https://script.google.com/macros/s/AKfycbwqZj2QczRMvklSefgckZSPjyEFERmRM4Z_Gj0zoiPDCSveLPKypn6EnsPtgcRocB7V/exec", {
+    fetch("https://script.google.com/macros/s/AKfycby51vVvWJodth70cz0kmv3t3B2DfMBF6wlVhvesa84A5ddjQ4n_Io7ohsZzAnVSL_6v/exec", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "test", name, email, message }),
