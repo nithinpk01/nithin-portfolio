@@ -1,0 +1,13 @@
+[
+    {
+      "id": 1,
+      "title": "Web Development Basics",
+      "content": "<p>Web development is the process of building and maintaining websites. It involves a variety of tasks, including web design, content creation, and client-side or server-side coding. A solid understanding of web development is crucial for anyone looking to pursue a career in web technologies, whether as a front-end developer, back-end developer, or full-stack developer.</p><h2>Key Components of Web Development</h2><ul><li><strong>HTML</strong>: The backbone of any web page. HTML provides the structure and content.</li><li><strong>CSS</strong>: CSS is used to style and format the layout of a web page, including colors, fonts, and spacing.</li><li><strong>JavaScript</strong>: JavaScript adds interactivity to websites. It allows you to create dynamic content, like animations, form validation, and data manipulation.</li><li><strong>Web Hosting</strong>: A web hosting service is necessary to make your website accessible over the internet. It stores your website's files and makes them available to users.</li></ul><h2>Popular Tools & Technologies</h2><p>Some of the most popular include: React, Angular, Node.js, Bootstrap.</p>"
+    },
+    {
+      "id": 2,
+      "title": "Front-End Development",
+      "content": "<p>Front-end development is focused on the user interface and experience. It involves creating everything that users interact with on the web. A front-end developer typically works with HTML, CSS, JavaScript, and front-end libraries or frameworks like React or Angular.</p><h2>Core Skills for Front-End Development</h2><ul><li><strong>HTML/CSS</strong>: The building blocks of front-end development.</li><li><strong>JavaScript</strong>: Adding interactivity to websites.</li><li><strong>Responsive Design</strong>: Ensuring that websites are mobile-friendly.</li></ul>"
+    }
+  ]
+  
